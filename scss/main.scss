@@ -1,0 +1,86 @@
+$primary-color: #1433c4;
+$second-color: #3b62c4;
+
+.main {
+  margin-top: 30px;
+
+  .wrapper {
+    .left {
+      width: 45%;
+      .card {
+        width: 100%;
+        display: inline-block;
+        margin: 30px;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 3px 6px rgb(4, 44, 107, 0.3);
+
+        .content_card {
+          padding: 10px;
+
+          .title {
+            font-size: 24px;
+            color: black;
+            font-weight: 700;
+          }
+
+          .sub_title {
+            font-size: 20px;
+            color: aqua;
+            font-weight: 700;
+            margin-top: 5px;
+          }
+
+          .content {
+            font-size: 18px;
+            color: black;
+            margin-top: 10px;
+            line-height: 1.2;
+          }
+
+          .date_info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            align-content: center;
+
+            .text_date_info {
+              font-size: 18px;
+              color: aliceblue;
+            }
+
+            .date {
+              font-size: 18px;
+              color: aliceblue;
+            }
+          }
+
+          .btn_wrap {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+
+            .btn {
+              font-size: 18px;
+              color: white;
+              background: $primary-color;
+              border-radius: 15px;
+              padding: 12px 16px;
+              transition: 0.4s;
+
+              &:hover {
+                background: $second-color;
+              }
+            }
+          }
+        }
+      }
+
+
+    }
+
+    .right {
+
+    }
+  }
+}
