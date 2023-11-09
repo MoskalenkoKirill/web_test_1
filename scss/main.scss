@@ -2,7 +2,12 @@ $primary-color: #1433c4;
 $second-color: #3b62c4;
 
 .main {
-  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 30px
+  auto;
 
   .wrapper {
     .left {
@@ -10,7 +15,7 @@ $second-color: #3b62c4;
       .card {
         width: 100%;
         display: inline-block;
-        margin: 30px;
+        //margin: 30px;
         border-radius: 15px;
         overflow: hidden;
         box-shadow: 0 3px 6px rgb(4, 44, 107, 0.3);
